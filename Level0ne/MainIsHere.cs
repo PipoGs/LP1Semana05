@@ -14,5 +14,10 @@ namespace Level0ne
         {
             Console.WriteLine("Hello LP1!");
         }
+
+        private static void Burguer()
+        {
+
+        }
     }
 }
