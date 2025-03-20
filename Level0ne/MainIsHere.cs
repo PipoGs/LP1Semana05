@@ -2,7 +2,9 @@
 
 namespace Level0ne
 {
-
+    /// <summary>
+    /// The main class.
+    /// </summary>
     public class Program
     {
         /// <summary>
