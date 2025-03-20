@@ -16,6 +16,7 @@ namespace Level0ne
         {
             Console.WriteLine("Hello LP1!");
             Console.WriteLine("Bad day?");
+            Console.WriteLine("Nice day!");
             Console.WriteLine("Bye!");
         }
 
