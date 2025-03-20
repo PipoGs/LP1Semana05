@@ -15,6 +15,9 @@ namespace Level0ne
             Console.WriteLine("Hello LP1!");
         }
 
+        /// <summary>
+        /// This method is used to demonstrate the use of the Burguer method.
+        /// </summary>
         private static void Burguer()
         {
 
