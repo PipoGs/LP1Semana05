@@ -5,7 +5,7 @@ namespace LevelTwo
 {
     public class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             CanvasImage image = new CanvasImage("tux.png");
 
