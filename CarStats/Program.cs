@@ -2,6 +2,7 @@
 using Spectre.Console;
 using Bogus;
 using Microsoft.VisualBasic;
+using System.Collections.Generic;
 
 namespace CarStats
 {
@@ -12,8 +13,12 @@ namespace CarStats
         {
             Faker faker = new Faker();
 
-            string input = args[0];
-            int Count = int.Parse(input);
+            int Count = 3;
+
+            if (args.Length > 0 && int.TryParse(args[0], out int count))
+            {
+                Count = count;
+            }
 
 
             BarChart bc = new BarChart()
