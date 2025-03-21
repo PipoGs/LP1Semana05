@@ -11,7 +11,7 @@ namespace LevelTwo
 
             image.MaxWidth(20);
 
-            AnsiConsole.Render(image);
+            AnsiConsole.Write(image);
         }
     }
 }
