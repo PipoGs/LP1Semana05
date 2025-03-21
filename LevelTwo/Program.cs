@@ -7,7 +7,7 @@ namespace LevelTwo
     {
         private static void Main()
         {
-            CanvasImage image = new CanvasImage("tux.png");
+            CanvasImage image = new CanvasImage("tux.jpg");
 
             image.MaxWidth(20);
 
