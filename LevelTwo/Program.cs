@@ -1,5 +1,6 @@
 ﻿using System;
 using Spectre.Console;
+using SoGoodLib;
 
 namespace LevelTwo
 {
@@ -20,10 +21,11 @@ namespace LevelTwo
                 maxWidth = width;
             }
 
+            string message = SoGoodClass.SoGoodMethod();
+            AnsiConsole.WriteLine(message);
+
             CanvasImage image = new CanvasImage(input);
-
             image.MaxWidth(maxWidth);
-
             AnsiConsole.Write(image);
         }
     }
